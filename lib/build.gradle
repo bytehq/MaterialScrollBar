@@ -30,7 +30,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'material-scroll-bar'
 
-    publishedGroupId = 'com.turingtechnologies.materialscrollbar'
+    publishedGroupId = 'cool.peach.materialscrollbar'
     libraryName = 'Material Scrollbar'
     artifact = 'lib'
 
@@ -39,7 +39,7 @@ ext {
     siteUrl = 'https://github.com/krimin-killr21/MaterialScrollBar'
     gitUrl = 'https://github.com/krimin-killr21/MaterialScrollBar.git'
 
-    libraryVersion = '8.0.0'
+    libraryVersion = '1.0.0'
 
     supportLibVersion = '23.1.1'
 
@@ -70,8 +70,8 @@ dependencies {
     compile "com.android.support:design:${supportLibVersion}"
 }
 
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+// apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+// apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
 
 publishing {
     publications {
